@@ -1,0 +1,122 @@
+.avisUtilisateurs{
+    background: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 17rem 0;
+
+    *{color: #000;}
+}
+
+.upSlider {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 60%;
+  }
+
+  .upSliderContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .loop-slider {
+    --direction: normal;
+  }
+  .reverse {
+    --direction: reverse;
+  }
+  .loop-slider, .reverse{
+    --duration: 25s;
+    font-size: 1.1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25rem;
+  }
+  .inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    gap: 3rem;
+    animation-name: loop;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: var(--direction);
+    animation-duration: var(--duration);
+
+    .tag{
+      width: 98%;
+      border-radius: 20px;
+      padding: 1.5rem;
+      box-shadow: -1px -1px 1px #00000048;
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      
+      h2{
+        color: #036b1a;
+        font-weight: bold;
+      }
+
+      div{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+      }
+
+      img{
+          width: 70px;
+          height: 70px;
+          border-radius: 50%;
+      }
+    }
+  }
+  .avisUtilisateurs .AvisTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 5rem 0;
+
+    h1{
+        font-size: 4em;
+
+        span{
+            color: #036b1a;
+        }
+    }
+    .lineRed{
+        width: 500px;
+        border: 2px solid red;
+    }
+    p{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    small{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+}
+  @keyframes loop {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-50%);
+    }
+  }
