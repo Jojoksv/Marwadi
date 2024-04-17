@@ -46,7 +46,7 @@ function Partners(){
                 <div className="filierePartner">
                     <h1>Nos <span>Filières</span> et <span>Partenaires</span></h1>
                     <p>
-                        <div className="redline"></div>
+                        <span className="redline"></span>
                         <span className='parternDesc'>Nous travaillons en etroite collaboration avec plus de 50 pays et universités partenaires pour vous offir un cadre favoriable pour votre succes scolaire</span>
                     </p>
                 </div>
