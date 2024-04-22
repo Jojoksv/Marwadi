@@ -5,6 +5,7 @@ import Header from "../components/IndexComponents/Header"
 import Partners from "../components/IndexComponents/Partners"
 import Question from "../components/IndexComponents/Question"
 import WhatWeOffer from "../components/IndexComponents/WhatWeOffer"
+import '../styles/IndexGlobal.css'
 
 
 function Index() {

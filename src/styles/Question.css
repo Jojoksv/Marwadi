@@ -18,7 +18,7 @@
         font-size: 4em;
 
         span{
-            color: #036b1a;
+            color: var(--globalColor);
         }
     }
     .lineRed{
@@ -62,7 +62,7 @@
     }
     .nth2{
         /* background: rgb(189, 0, 0); */
-        background: #036b1a;
+        background: var(--globalColor);
         *{color: #fff;}
     }
 }

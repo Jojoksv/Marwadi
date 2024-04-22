@@ -45,6 +45,7 @@ function Header(){
                 <div className='navbarContent'>
                     <div className="logo">
                         <h1><span>M</span>arwadi</h1>
+                        <span className='university'>University</span>
                     </div>
                     <div className="navbarItems">
                         <div className='items'>

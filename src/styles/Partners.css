@@ -31,7 +31,7 @@
     gap: 30px;
 
     h1 span{
-        color: #036b1a;
+        color: var(--globalColor);
     }
     p{
         display: flex;
@@ -66,7 +66,7 @@
     span{
         font-size: 2.5em;
         font-weight: bold;
-        color: #036b1a;
+        color: var(--globalColor);
     }
     .redline{
         width: 300px;
@@ -90,7 +90,7 @@
         border-radius: 10px;
         background: #00000011;
         font-weight: bold;
-        color: #036b1a;
+        color: var(--globalColor);
         font-size: 1.2em;
     }
 }
@@ -115,7 +115,7 @@
         font-size: 4em;
 
         span{
-            color: #036b1a;
+            color: var(--globalColor);
         }
     }
     .lineRed{
